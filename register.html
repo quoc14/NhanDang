@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Face</title>
+</head>
+<body>
+    <h1>Register Face</h1>
+    <form action="/register" method="POST" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Enter name" required>
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div style="color: green; font-weight: bold;">
+                {% for message in messages %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+    <a href="/">Back to Home</a>
+</body>
+</html>
