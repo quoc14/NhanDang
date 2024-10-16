@@ -1,0 +1,10 @@
+model_path: Đường dẫn của mô hình trích xuất đặc trưng khuôn mặt.
+accuracy: Độ chính xác của mô hình (accuracy).
+FNIR: Tỷ lệ nhận dạng âm tính sai (False Negative Identification Rate).
+FPIR: Tỷ lệ nhận dạng dương tính sai (False Positive Identification Rate).
+model_size: Kích thước của mô hình (Model Size).
+elapsed_time: Thời gian chạy của mô hình để hoàn thành quá trình đánh giá
+model/minchul/cvlface_adaface_vit_base_kprpe_webface4m,0.997,0.006,0.0,4096,1252.235078573227
+model/minchul/cvlface_adaface_vit_base_webface4m,0.9976666666666667,0.004666666666666667,0.0,4096,1194.2088315486908
+model/minchul/cvlface_adaface_ir101_webface4m,0.998,0.004,0.0,4096,2088.3040297031403
+model/minchul/cvlface_adaface_vit_base_kprpe_webface12m,0.9981666666666666,0.0036666666666666666,0.0,4096,2115.2809977531433
